@@ -1,0 +1,32 @@
+.s-container {
+    height: 100%;
+    display: grid;
+    background-color: red;
+    grid-template-columns: auto 100px;
+    overflow:hidden;
+}
+
+
+.s-content {
+    -ms-overflow-style: none;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.s-scrollbar{
+    background-color:green;
+}
+
+.s-track{
+    position:relative;
+}
+
+.s-thumb{
+    position:absolute;
+}
+
+.s-scrollbar .s-track .s-thumb {
+    background-color: blue;
+    width: 100%;
+}
+
